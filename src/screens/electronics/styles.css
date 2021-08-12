@@ -1,0 +1,28 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.body-electronics {
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  margin-top: 52px;
+}
+.default-style {
+  width: 100%;
+  padding: 37px;
+  max-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 893px) {
+  .body-electronics {display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 557px) {
+  .default-style {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,35 @@
+.row-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.text-icon {
+  display: flex;
+  align-items: center;
+}
+.title-menu-rectangle {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+
+.text-item {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  color: #2c2c2c;
+  margin-left: 11px;
+}
+.icon-style {
+  width: 16px;
+  height: 16px;
+}
+.icon-style svg > path {
+  stroke: #0052cc;
+}
+.icon-style svg > rect {
+  stroke: #0052cc;
+}

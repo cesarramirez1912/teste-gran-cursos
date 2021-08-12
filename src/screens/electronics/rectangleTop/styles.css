@@ -1,0 +1,24 @@
+.row-rectangle-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.row-card-l-r {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.top{
+  display: flex;
+  justify-content: space-between !important;
+}
+@media only screen and (max-width: 676px) {
+  .row-rectangle-top {
+    flex-direction: column-reverse;
+  }
+  .row-card-l-r {
+   margin:5px;
+   justify-content: center;
+  }
+}

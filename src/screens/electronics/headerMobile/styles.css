@@ -1,0 +1,17 @@
+.body-close-filter {
+  display: none;
+  transition: 0.5s;
+}
+
+.body-open-filter {
+  width: 100%;
+  max-width: fit-content;
+  transition: 0.5s;
+}
+
+
+ @media only screen and (max-width: 891px) {
+  .body-open-filter {
+    max-width: 100%;
+  }
+} 

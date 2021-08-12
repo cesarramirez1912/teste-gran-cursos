@@ -1,0 +1,23 @@
+.body-rectangle-rigth {
+  margin-left: 1.5rem;
+}
+
+.image-product {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 891px) {
+  .body-rectangle-rigth {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 571px) {
+  .image-product {
+    margin-bottom: 22px;
+  }
+}
